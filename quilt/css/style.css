@@ -1,0 +1,48 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+  }
+
+  .row{
+    width: 100%;
+    height: 110px;
+    float: left;
+  }
+
+.row1{
+    opacity: 0.5;
+}
+
+.medium{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.big{
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+.small{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.teal{
+    background-color: #7FFFD4;
+}
+
+.orange{
+    background-color: #D2691E;
+}
+
+.white{
+    background-color: #F5F5DC;
+}
+
+.blue{
+    background-color: #6495ED;
+}
