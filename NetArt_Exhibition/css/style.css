@@ -1,0 +1,80 @@
+body{
+    background-image: url("background.jpg");
+}
+
+h1{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+
+    /* this is the blue box */
+    padding: 10px;
+    background-color: blue;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.mainParagraph{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: blue;
+
+    /* this is the white box */
+    padding: 20px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.linking{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: yellow;
+    text-align: center;
+
+    /* this is the orange box */
+    padding: 10px;
+    background-color: blue;
+    margin-left: 13.5%;
+    margin-top: 30px;
+    width: 20%;
+}
+
+.description{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: blue;
+
+    /* this is the white box */
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    margin-left:13.5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.emphasize{
+    font-weight: 600;
+    font-style: italic;
+}
+
+.italicize{
+    font-style: italic;
+    font-size: 18px;
+}
+
