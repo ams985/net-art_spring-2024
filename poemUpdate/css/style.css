@@ -1,0 +1,62 @@
+
+body{
+    background-color: blanchedalmond;
+}
+
+h3{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 70px;
+  line-height: 0;
+  color: rgb(12, 107, 92);
+}
+
+h5{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+  line-height: .2;
+  color: rgb(12, 107, 92);
+}
+
+p{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(12, 107, 92);
+  line-height: .75;
+  text-align: center;
+
+}
+
+.main{
+    margin: auto;
+    width: 70%;
+    height: 850px;
+
+}
+
+@keyframes yellow{
+    0%{
+        color: rgb(207, 202, 106);
+    }
+    100%{
+        color: rgb(12, 107, 92);
+    }
+}
+
+.yellowMovement{
+    animation: yellow .5s ease-in-out .0s infinite alternate-reverse running;
+}
+.yellowMovement1{
+    animation: yellow .5s ease-in-out .5s infinite alternate-reverse running;
+}
+.yellowMovement2{
+    animation: yellow .5s ease-in-out .75s infinite alternate-reverse running;
+}
